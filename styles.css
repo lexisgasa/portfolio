@@ -62,22 +62,13 @@ header div:first-child {
     width: 50%;
 }
 .top-line {
-    display: block;
-    position: relative;
     font-size: 3rem;
     letter-spacing: 0.25rem;
     font-weight: 200;
     color: var(--grey);
 }
 
-.top-line::after{
-    position: absolute;
-    content: "";
-    height: 0.3vw;
-    width: 3vw;
-    bottom: 1vw;
-    background-color: var(--navy-blue);
-}
+
 
 header h1{
     display: block;
@@ -175,7 +166,7 @@ header button:hover {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    margin: 0 1vw;
+    margin: 0 2vw;
 }
 
 #projects h2 {
@@ -184,12 +175,9 @@ header button:hover {
 }
 .project-ex {
     display: flex;
-    gap: 1vw;
+    gap: 1.5vw;
 }
 
-#projects img {
-    width: 32vw;
-}
 
 .project-ex div {
     display: flex;
@@ -207,8 +195,13 @@ header button:hover {
 .project-ex div a:hover {
     color: var(--grey);
 }
+
+.project-ex div img {
+    width: 31vw;
+    transition: 0.4s;
+}
 .project-ex div img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .project-ex div p {
@@ -218,7 +211,9 @@ header button:hover {
     font-weight: 200;
 }
 /* ========     CONTACT SECTION     ======== */
-
+#contact {
+    background-color: black;
+}
 
 /* ========     FOOTER SECTION     ======== */
 footer p {
