@@ -4,6 +4,7 @@ Domingo 23/04:
 - [x] Establecer la estructura de la página 
 - [x] Estructurar la barra nav.
 - [x] Estructurar sección de bienvenida
+- [x] Título funcional 
 - [x] Estructurar sección sobre mí
 - [x] Estructurar sección proyectos
 - [x] Enlaces a proyectos de la sección proyectos
@@ -21,3 +22,5 @@ Lunes 24/04:
 - [] Estilar sección contacto
 - [] Estilar footer
 - [] Media query de tlfno. móvil
+
+___

@@ -25,8 +25,8 @@
             <h1>Soy <span class="multi-text"></span></h1>
             <p>y trabajo para convertir mi pasión en mi profesión!</p>
             <div class="btns">
-                <button>Currículum</button>
-                <button>Contacto</button>
+                <button><a href="./AGSresume.pdf" download> Currículum</a></button>
+                <button><a href="#contacto">Contacto</a></button>
             </div>
         </div>
         <div>
@@ -63,10 +63,13 @@
         </div>
     </section>
     <section id="contact">
+        <h2>Contacto</h2>
        <form action="GET">
-        <label for="">Full Name*</label>
-        <label for="">Email</label>
-        <label for="">Mensaje</label>
+        <div class="inputs">
+            <input type="text" id="name" name="name" placeholder="Nombre">
+            <input type="text" id="email" name="email" placeholder="Correo">
+            <textarea name="msge" id="msge" cols="30" rows="5" placeholder="Mensaje que deseas enviar"></textarea>
+        </div>
         <button>Enviar</button>
        </form>
     </section>

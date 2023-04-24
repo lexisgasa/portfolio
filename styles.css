@@ -93,6 +93,10 @@ header p {
     position: relative;
     left: 4vw;
 }
+.btns a {
+    color: var(--white);
+    text-decoration: none;
+}
 
 header button {
     border: none;
@@ -126,6 +130,7 @@ header button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     margin: 5vw 10vw;
     background-color: var(--light-grey);
     margin: 0;
@@ -163,9 +168,10 @@ header button:hover {
 
 /* ========     PROJECTS SECTION     ======== */
 #projects {
-    height: 100vh;
+    height: 70vh;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     margin: 0 2vw;
 }
 
@@ -212,9 +218,66 @@ header button:hover {
 }
 /* ========     CONTACT SECTION     ======== */
 #contact {
-    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--light-grey);
+    gap: 4vh;
+    
+}
+#contact h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: var(--navy-blue);
+    
 }
 
+#contact form {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    gap: 2vh;
+    margin-bottom: 5vh;
+}
+#contact input, textarea {
+    border: none;
+    border-radius: 5px;
+    background-color: var(--grey);
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    padding: 1vh;
+    color: var(--light-grey);
+}
+
+#contact button {
+    border: 1px solid var(--navy-blue);
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.5vh;
+    background-color: var(--white);
+    color: var(--navy-blue);
+    transition: .3s;
+}
+
+#contact button:hover {
+    color: var(--white);
+    background-color: var(--navy-blue);
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5vh;
+
+}
+::placeholder {
+    color: var(--light-grey);
+    font-weight: 200;
+}
 /* ========     FOOTER SECTION     ======== */
 footer p {
     background-color: var(--navy-blue);
