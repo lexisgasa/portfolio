@@ -10,11 +10,11 @@ Domingo 23/04:
 - [x] Enlaces a proyectos de la sección proyectos
 - [x] Estructurar footer
 
-______
+___
 
 Lunes 24/04: 
 - [x] Estructurar sección contacto
-- [] Funcionalidad de la form
+- [x] Funcionalidad de la form
 - [x] Estilar barra nav.
 - [x] Estilar seccción de bienvenida
 - [x] Estilar sección sobre mí
@@ -25,3 +25,8 @@ Lunes 24/04:
 - [] Media query de tlfno. móvil
 
 ___
+
+Martes 25/04:
+- [] Añadir fotos propias
+- [] Añadir texto sobre mi
+- [] Añadir función texto aparece con scroll
