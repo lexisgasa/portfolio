@@ -355,7 +355,7 @@ footer p {
   header {
     padding-top: 5vh;
     display: flex;
-    height: 100vh;
+    height: 55vh;
     justify-content: center;
     align-items: flex-start;
   }
@@ -408,39 +408,78 @@ footer p {
 
   #about-me {
    height: 100vw;
+   margin-top: 80vw;
+   padding: 100vw 0;
   }
   .my-info {
     display: flex;
     flex-direction: column;
     gap: 5vw;
-    align-content: center;
+    align-items: center;
   }
-  
-  .my-info h2 {
-    color: var(--light-blue);
-    font-size: 2rem;
-    font-weight: 600;
-  }
-  .my-info div {
-    font-weight: 500;
-    width: 40vw;
-  }
-  
   .my-info hr {
-    height: 10vw;
-    margin: 8% 0;
-    border: none;
-    border-right: 0.4vw dotted var(--light-blue);
+    display: none;
   }
+
+  .my-info p{
+    width: 75vw;
+  } 
   
   .profile-pic {
     border-radius: 50%;
     object-fit: cover;
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 20vw;
   }
   
-
   /* PROJECTS */
+  #projects {
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    margin-top: 20vh;
+  }
+  
+  #projects h2 {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+  .project-ex {
+    display: flex;
+    gap: 1.5vw;
+  }
+  
+  .project-ex div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .project-ex div a {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--navy-blue);
+    transition: 0.2s;
+  }
+  .project-ex div a:hover {
+    color: var(--grey);
+  }
+  
+  .project-ex div img {
+    width: 31vw;
+    transition: 0.4s;
+  }
+  .project-ex div img:hover {
+    transform: scale(1.1);
+  }
+  
+  .project-ex div p {
+    width: 25vw;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 200;
+  }
   /* FORM */
 }
