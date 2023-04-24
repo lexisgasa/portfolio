@@ -68,8 +68,6 @@ header div:first-child {
     color: var(--grey);
 }
 
-
-
 header h1{
     display: block;
     font-weight: 200;
@@ -122,6 +120,19 @@ header button:hover {
         object-fit: cover;
         height: 450px;
         width: 450px;
+}
+
+header div ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    font-size: 2rem;
+    filter: contrast(5%);
+}
+
+header div li:hover {
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 /* ========     ABOUT ME SECTION     ======== */
@@ -261,6 +272,7 @@ header button:hover {
     background-color: var(--white);
     color: var(--navy-blue);
     transition: .3s;
+    box-shadow: 0 7px 7px rgba(0, 0, 0, 0.2);
 }
 
 #contact button:hover {
