@@ -13,14 +13,14 @@ Domingo 23/04:
 ______
 
 Lunes 24/04: 
-- [] Estructurar sección contacto
+- [x] Estructurar sección contacto
 - [] Funcionalidad de la form
-- [] Estilar barra nav.
-- [] Estilar seccción de bienvenida
-- [] Estilar sección sobre mí
-- [] Estilar sección proyectos
-- [] Estilar sección contacto
-- [] Estilar footer
+- [x] Estilar barra nav.
+- [x] Estilar seccción de bienvenida
+- [x] Estilar sección sobre mí
+- [x] Estilar sección proyectos
+- [x] Estilar sección contacto
+- [x] Estilar footer
 - [] Media query de tlfno. móvil
 
 ___

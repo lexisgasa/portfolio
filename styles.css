@@ -179,7 +179,7 @@ header div li:hover {
 
 /* ========     PROJECTS SECTION     ======== */
 #projects {
-    height: 70vh;
+    height: 80vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -235,6 +235,7 @@ header div li:hover {
     align-items: center;
     background-color: var(--light-grey);
     gap: 4vh;
+    height: 55vh;
     
 }
 #contact h2 {
@@ -294,7 +295,8 @@ header div li:hover {
 footer p {
     background-color: var(--navy-blue);
     color: var(--light-grey);
-    text-align: center;
+    text-align: right;
     font-weight: 200;
     margin: 0;
+    padding: 0 5vw;
 }
