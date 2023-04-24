@@ -21,6 +21,7 @@ Lunes 24/04:
 - [x] Estilar sección proyectos
 - [x] Estilar sección contacto
 - [x] Estilar footer
+- [x] Botones redes sociales añadidos
 - [] Media query de tlfno. móvil
 
 ___
