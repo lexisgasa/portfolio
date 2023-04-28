@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="https://kit.fontawesome.com/574f0036b2.js" crossorigin="anonymous"></script>
+    <script src="./script.js" defer></script>
+</head>
+<body>
+    <nav>
+        <div>Alexis Garcia</div>
+        <div class="nav-links">
+            <ul>
+                <li><a href="#about-me">Sobre mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </div>
+    </nav>
+    <header>
+        <div>
+            <span class="top-line">Bienvenido!</span>
+            <h1>Soy <span class="multi-text"></span></h1>
+            <p>y trabajo para convertir mi pasión en mi profesión!</p>
+            <div class="btns">
+                <button><a href="./AGScurriculum.pdf" download> Currículum</a></button>
+                <button><a href="#contact">Contacto</a></button>
+            </div>
+        </div>
+        <div class="logos">
+                <img src="https://images.unsplash.com/photo-1613075677904-c51e3ac10742?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=772&q=80" alt="" class="me">
+                <ul>
+                    <a href="https://github.com/lexisgasa"><li><i class="fa-brands fa-github"></i></li></a>
+                    <a href="https://www.linkedin.com/in/alexisgasa/"><li><i class="fa-brands fa-linkedin"></i></li></a>
+                    <a href="https://www.youtube.com/@garcia.93"><li><i class="fa-brands fa-youtube""></i></li></a> 
+                </ul>
+        </div>
+    </header>
+        <section id="about-me">
+        <div class="my-info">
+            <img src="https://images.unsplash.com/photo-1504593811423-6dd665756598?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80" alt="photo of Alexis" class="profile-pic">
+            <hr>
+            <div>
+                <h2>Sobre mí</h2>
+                <p>"Me defino como un apasionado del desarrollo de software front-end, con sólidos conocimientos en tecnologías como HTML, CSS y JavaScript. Tengo experiencia en la creación de interfaces de usuario atractivas y funcionales, optimizando la experiencia del usuario y mejorando la usabilidad de aplicaciones web. Soy un comunicador efectivo y trabajo bien en equipo, colaborando con otros desarrolladores y diseñadores para crear soluciones innovadoras y de alta calidad. Soy proactivo, aprendo rápidamente y me adapto a los cambios tecnológicos con facilidad. Además, siempre busco mejorar mis habilidades y estar al tanto de las últimas tendencias en desarrollo front-end. Estoy entusiasmado con la posibilidad de contribuir con mi experiencia y habilidades a un equipo de desarrollo de software y ayudar a crear aplicaciones web de clase mundial."</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Proyectos recientes</h2>
+        <div class="project-ex">
+            <div>
+                <a href="https://midterm-ironhack-nu.vercel.app/"><img src="./assets/images/circle.png"alt=""><h2>Web responsiva</a></h2>
+                <p>Página web totalmente responsiva debido al uso de Flexbox y varias media queries.</p>
+            </div>
+            <div>
+                <a href="https://lexisgasa.github.io/Rock-paper-scissors2.0/"><img src="./assets/images/rockPaperScissors.png" alt=""><h2>Piedra Papel Tijeras</a></h2>
+                <p>Partida al mejor de 5 al juego piedra papel tijeras contra la computadora.</p>
+            </div>
+            <div>
+                <a href="https://finalproject-ironhack.vercel.app/"><img src="./assets/images/toDoApp.png" alt=""><h2>Lista de tareas</a></h2>
+                <p>Aplicación para crear/editar y borrar tareas creada usando Vue.js y supabase.
+                <br>
+                *Es necesario registrar usuario.</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contacto</h2>
+       <form action="https://formspree.io/f/xnqylgkd" method="POST">
+        <div class="inputs">
+            <input type="text" id="name" name="name" placeholder="Nombre" required>
+            <input type="email" id="email" name="email" placeholder="Correo" required>
+            <textarea name="msge" id="msge" cols="30" rows="5" placeholder="Mensaje que deseas enviar" required></textarea>
+        </div>
+        <button>Enviar</button>
+       </form>
+    </section>
+    <footer>
+        <p>2023 / Alexis García</p>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+    <script>
+        const typed = new Typed(".multi-text", {
+            strings: ["desarrollador.","programador.", "youtuber."],
+            loop: true,
+            typeSpeed: 100,
+            backSpeed: 80,
+            backDelay: 1500
+        });
+    </script>
+</body>
+</html>
